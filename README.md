@@ -1,3 +1,7 @@
+# ---
+
+> OpenClaw AI Agent Skill
+
 ---
 name: linkedin-reader
 description: Read LinkedIn public profiles, company pages, and job listings. Use when asked to look up someone on LinkedIn, research a company's LinkedIn presence, find job listings, or gather professional intelligence. Uses Jina Reader as the primary extraction method.
@@ -49,3 +53,13 @@ Find LinkedIn profiles via Google:
 ```bash
 curl -s "https://s.jina.ai/site:linkedin.com/in+CEO+AI+Indonesia"
 ```
+
+## Installation
+
+```bash
+cp -r linkedin-reader/ ~/.openclaw/workspace/skills/linkedin-reader/
+```
+
+## License
+
+MIT © [Sentra Technology](https://github.com/Icattj)
